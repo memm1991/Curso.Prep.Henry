@@ -1,0 +1,7 @@
+bueno en principio un array es como otro timpo de variable pero no es una variable ya que en ella existen varios elementos a tomar en cuenta, 
+me refiero a que es una variable en el sentido de que es un espacio en memoria que yo puedo guardar y volver a llamar o modificar
+tambien decimos que un array, contiene elementos ordenados y no por que particularmente haya un orden en los elementos que guardo como algun 
+criterio que determine cual sera el elementos siguiente, sino porque los elementes tiene un orden en cuanto a la posicion en la que se encuentran
+, es decir, por ejemplo arreglo =[yo, 3, 5.9 , mañana] podemos decir que no hay un orden especifico de los elementos pero si podemos decir que 
+ocupan un lugar en la secuencia en la que aparencen , 'yo' aparece en primer lugar , 3 en el segundo lugar y es el lugar donde aparecen que les da
+el orden. y esto sirve para poder tomar esos elementos que guarde en mi espacio en memoria si se en que lugar se encuentran.
