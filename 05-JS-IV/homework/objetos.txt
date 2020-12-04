@@ -1,0 +1,20 @@
+Los objetos son un tipo de variable que tiene una forma particular de almacenar informacion que es por pares, y que signfica que sea de a pares
+, signfica que para lo que sea que vaya a usar voy a tomar una carcteristica de ese objeto que sera la clave y le asignare un valor osea que la 
+iformacion es el ¿como se llama? y el ¿que valor tiene? ese es el par, entonces cuando se trata de objetos e intentamos abstraer la realidad a los
+datos y a la programacion es importante considerar que un objeto puede tener muchas caracteristicas que encierren distinto tipos de informacion,
+o distinto tipos de datos en el caso de la programacion icluso puede contener hasta funciones 
+
+las proiedades son el conjunto de el par clave valor que tiene un objeto que no sean funciones, aquellos pares que sean funciones se llama metodo,
+osea que podemos decir que si a un objeto le sacamos el length tendra tantas  propiedades + metodos como largo sea el length .
+Esto se vuelve mas sencillo a la hora de trabajar y operar o trabajar con cosas del objeto dentro y fuera del objeto
+
+los bucles for in es una forma de iterar (realizar una o algunas accion/es  sobre distintos elementos) pero como los elementos de ese objetos 
+vienen de a pares lo qu te permite hacer es ir por cada elemento de ese objeto y el tema es que a diferencia de los arrays los objetos no tienen 
+un orden , es aqui donde se ve el beneficio por que es bulce ira elemento por elemento. 
+
+basicamente la notacion con corchetes es el objeto['clave'] o una variable que contenga el nombre en string de esa clave como decir, i='clave'
+entonces puedo llamar al valor objeto[i], pero lo que es importante es que lo equivalente en los corchetes es que siempre sera una string
+esto es el rigor, ahora una forma mas rapida y menos rigurosa es llamar a eso con la notacion de puntos, objeto.clave o si, ahora clave 
+en este caso no es una string seria mas como una variable, entonces no puedo hacer como en la notacion de corchetes porque js va a buscar la 
+variable no lo que hay adentro de ella , entonces no podemos hacer usar, si tomamos el ejemplo anterior, objeto.i para acceder el valor de
+esa clave .
