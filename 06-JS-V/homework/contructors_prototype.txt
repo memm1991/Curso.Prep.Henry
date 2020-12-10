@@ -1,0 +1,18 @@
+constructors:
+los constrctors en jv. son las clases (o las plantillas), estas clases que crean objetos , ya sea como funciones (fabrica de objetos) o usando 
+object.create o en con la key word class, ahora en este ultimo se aclara el constructor. y esto es basicamente para quedar claro cuales seras
+las cosas que ese objeto tendra como propiedades y no solo propiedades tambien pueden ser metodos, el tema es que este ultimo no conviene, 
+digamos que los metodos, si a un constructor de objetos les pasamos ciertas propiedades que por parametros determinamos su valor, son las 
+caracteristicas de ese objeto. Las operaciones** que podemos hacer con esas caracteristicas (salvo algunas excepciones) son las mismas en cualquier
+objeto creado por ese constructor, entonces por qué cada objeto tendria que tener dentro de sus elementos tambien, operaciones que son compartidas
+por todos esos objetos, es un desperdicio de memorio y recursos entonces lo que hace js ...
+prototype:
+... es cuando se crea una clase o funcion constructora crea lo que yo lo entiendo como un objeto de esa clase, pero este objeto no es como los
+objetos que crea el constructor es unico para esa clase o constructor, y ese objeto prototype tiene a su vez un propiedad que se llama prototype,
+es aqui donde convenientemente estan todas las operaciones que se comparten entre los objetos creados por el constructor es por eso, que a pesar 
+que el objeto creado por la clase NO tenga esa metodo u operacion ese objeto como cualquier otro, puede acceder al mismo gracias al prototype.
+Y esto funciona en cadena por que todos los objetos aunque se creen litermalmente provienen de algun otro objeto que tiene su prototype. Por derivar 
+de este tambien tiene acceso a esas operacion, entoncesqueda claro una cadena de herencia de metodos a las cuales los objetos pueden acceder
+gracias a la forma en que fueron creados.
+
+** operacion = le llamo operaciones a aquellas funciones que tinen o usan los mismos propiedades del objeto aunque el valor de esa propuedad varíe 
